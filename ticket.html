@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ticket</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2>Create a Ticket</h2>
+    <input type="text" id="title" placeholder="Ticket Title" required /><br/>
+    <textarea id="description" placeholder="Describe your issue" required></textarea><br/>
+    <select id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select><br/>
+    <button onclick="createTicket()">Submit Ticket</button>
+
+    <script src="js/ticket.js"></script>
+</body>
+</html>
